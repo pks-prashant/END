@@ -1,0 +1,47 @@
+﻿:root {
+    --pri: #00b7c3;
+    --sec: #cfcfcf;
+    --bg: #e6e6e6;
+    
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+
+}
+.sec {
+    background-color: var(--bg) ;
+}
+.topnav a {
+    text-decoration: none;
+    text-transform: none;
+    color: var(--sec);
+    margin: 0em 0.2em 0em 0.2em;
+}
+.topnav a:hover{
+   color: var(--pri);
+}
+.navbar {
+   
+}
+
+    .navbar li {
+        margin: 0em 2em 0em 0em;
+        letter-spacing:0.05em;
+        font-weight: bold;
+    }
+    .navbar li a:hover{
+       color: var(--pri);
+    }
+
+
+
+
+
+
+#footer{
+    color:white;
+    font-weight:500;
+    letter-spacing:0.05em;
+}
